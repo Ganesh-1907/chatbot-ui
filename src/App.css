@@ -19,13 +19,13 @@ body {
 
 /* Chat container with fixed height and scroll */
 .chat-container {
-  height: 300px; /* Fixed height */
+  height: 400px; /* Fixed height */
   border: 1px solid #ccc;
   padding: 10px;
   width: 90%;
   overflow-y: auto; /* Enables scrolling */
   background: #f9f9f9;
-  margin-left: 40px;
+  margin-left: 35px;
   margin-bottom: 20px;
   border-radius: 5px;
   flex-grow: 1;
@@ -92,12 +92,11 @@ body {
 
 /* Fixed input fields */
 .input-section {
-  position: sticky;
-  bottom: 0;
   background: white;
   padding: 10px;
-  /* border-top: 1px solid #ccc; */
   width: 100%;
+ margin: 0;
+  
 }
 
 textarea {
@@ -105,7 +104,7 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   resize: none;
 }
 
